@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:text="File descriptor is not null" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginTop="57dp"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:text="Input stream is not null" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_below="@+id/textView1" android:layout_centerHorizontal="true" android:layout_marginTop="17dp"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:text="Output stream is not null" android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_below="@+id/textView2" android:layout_centerHorizontal="true" android:layout_marginTop="16dp"></TextView>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:text="USB Accessory is not null" android:id="@+id/textView4" android:layout_height="wrap_content" android:layout_below="@+id/textView3" android:layout_centerHorizontal="true" android:layout_marginTop="18dp"></TextView>
+    <Button android:layout_width="wrap_content" android:id="@+id/button1" android:text="Read" android:layout_height="wrap_content" android:layout_below="@+id/textView4" android:layout_centerHorizontal="true" android:layout_marginTop="58dp"></Button>
+</RelativeLayout>
